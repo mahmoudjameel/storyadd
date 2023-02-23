@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "storyat",
+    "slug": "storyat",
+    "version": "1.1.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#25292e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.storyat"
+    },
+    "android": {
+      "package": "com.storyat",
+      "versionCode": 16
+    },
+    "web": {
+      "resizeMode": "cover"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33465b6f-8b32-4560-97c7-a276ef1d19a3"
+      }
+    },
+    "owner": "tahasama",
+    "scheme": "com.storyat"
+      
+  }
+}
